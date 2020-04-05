@@ -1,0 +1,21 @@
+**SOLID**
+
+SRP (Single Responsability Pricipal) - Um class deve ter apenas uma razão para
+ser alterada, ou seja uma única responsabilidade;
+
+OCP (Open Closed Principal) - Uma class deve estar aberta para extensão mas fechada 
+para alteração. Quando o objetivo é adicionar comportamentos a uma class,
+é preferivel extender esta class em uma outra ao invés de modificá-la;
+
+LSP (Liskov Substituion Principal) - Se uma Subclasse  não puder ser substituida 
+por uma Superclasse, houve um problema de abstração, ou seja, classes herdadas devem 
+permitir comportamentos similares  aos da classe pai;
+(obs.: LSP tem como objetivo propor um critério para avaliar se a herança deve ser realizada ou não)
+
+ISP (Interface Segregation Principal) Usar interfaces especializadas é melhor que 
+uma única interface, ou seja, use especializações para que as classes "implementadoras"
+não sejam obrigadas a usar métodos dos quais elas não precisam;
+
+DIP (Dependency Inversion Principal) "Módulos de alto nível devem depender de módulos de baixo nível.
+Ambos devem depender de abstrações. Abastações não devem depender de detalhes. Detalhes 
+devem depender de abastrações", Em outras palavras :Dependa de uma abstração é não de uma implementação
